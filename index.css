@@ -13,6 +13,10 @@ body {
 .header h1{
 	font-family: "Lobster",cursive;
 	margin-right:20px;
+	background-color: #333;
+	opacity: 0.5;
+	padding:5px 15px 5px 15px;
+	border-radius:10px;
 }
 .logo{
 	width:80px;
@@ -21,12 +25,17 @@ body {
 .navi{
 	display:flex;
 	justify-content: center;
+
 }
 .navi a {
 	margin-top: 30px;
 	margin-bottom: 50px;
 	margin-right:20px;
 	color: white;
+	background-color: #333;
+	opacity: 0.5;
+	padding:5px 15px 5px 15px;
+	border-radius:10px;
 }
 .section {
 	position: relative;
@@ -65,11 +74,11 @@ body {
 	}
   }
   @media (max-width: 767px) {
-	.fullscreen-bg {
-	  background: url('./silvia.jpg') center center / cover no-repeat;
+	.videoContainer {
+	  background: url('./silvia-pic.jpg') center center / cover no-repeat;
 	}
 
-	.fullscreen-bg__video {
+	.video {
 	  display: none;
 	}
   }
@@ -81,6 +90,7 @@ body {
 .content {
 	background-color: #333;
 	opacity: 0.5;
+	border-radius:10px;
 	width: 200px;
 	height: 200px;
 	display: flex;
