@@ -1,1 +1,19 @@
-{}
+{
+  "name": "mark.com",
+  "description": "He likes cars?",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arobida/mark.com.git"
+  },
+  "author": "Marc Prado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arobida/mark.com/issues"
+  },
+  "homepage": "https://github.com/arobida/mark.com#readme"
+}
