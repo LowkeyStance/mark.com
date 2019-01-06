@@ -78,9 +78,9 @@ body {
 	.video {
 		display: none;
 	}
-	.yt-video{
-		width:300px;
-		height:220px;
+	.yt-video {
+		width: 300px;
+		height: 220px;
 	}
 }
 
@@ -91,8 +91,11 @@ body {
 }
 .content {
 	background-color: #333;
-	opacity: 100;
 	border-radius: 10px;
-	padding:10px;
+	padding: 10px;
 	text-align: center;
+}
+
+.content > * {
+	opacity: 1 !important;
 }
