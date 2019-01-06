@@ -1,37 +1,38 @@
 @font-face {
-	font-family: "Lobster", cursive;
-	src: url("https://fonts.googleapis.com/css?family=Lobster");
-  }
+	font-family: 'Lobster', cursive;
+	src: url('https://fonts.googleapis.com/css?family=Lobster');
+}
 body {
 	margin: 0;
 }
 .header {
 	text-align: center;
-	display:flex;
+	display: flex;
 	justify-content: center;
 }
-.header h1{
-	font-family: "Lobster",cursive;
-	margin-right:20px;
+.header h1 {
+	font-family: 'Lobster', cursive;
+	margin-right: 20px;
 	background-color: rgb(69, 90, 100);
 	opacity: 0.5;
-	padding:5px 15px 5px 15px;
-	border-radius:10px;
+	padding: 5px 15px 5px 15px;
+	border-radius: 10px;
 }
-.logo{
-	width:80px;
-	margin-top:30px;
+.logo {
+	width: 80px;
+	margin-top: 30px;
 }
-.navi{
-	display:flex;
+.navi {
+	display: flex;
 	justify-content: center;
 }
 .navi a {
 	margin-top: 5px;
 	margin-bottom: 30px;
-	margin-right:20px;
+	margin-right: 20px;
 	color: rgb(213, 0, 249);
-	padding:5px 15px 5px 15px;
+	padding: 5px 15px 5px 15px;
+	font-size: 1.5em;
 }
 .section {
 	position: relative;
@@ -42,42 +43,42 @@ body {
 }
 .videoContainer {
 	position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -100;
 }
-.video{
+.video {
 	position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 @media (min-aspect-ratio: 16/9) {
 	.video {
-	  height: 300%;
-	  top: -100%;
+		height: 300%;
+		top: -100%;
 	}
-  }
+}
 
-  @media (max-aspect-ratio: 16/9) {
+@media (max-aspect-ratio: 16/9) {
 	.video {
-	  width: 300%;
-	  left: -100%;
+		width: 300%;
+		left: -100%;
 	}
-  }
-  @media (max-width: 767px) {
+}
+@media (max-width: 767px) {
 	.videoContainer {
-	  background: url('./silvia-pic.jpg') center center / cover no-repeat;
+		background: url('./silvia-pic.jpg') center center / cover no-repeat;
 	}
 
 	.video {
-	  display: none;
+		display: none;
 	}
-  }
+}
 
 .container {
 	display: flex;
@@ -86,9 +87,7 @@ body {
 .content {
 	background-color: #333;
 	opacity: 0.5;
-	border-radius:10px;
-	width: 200px;
-	height: 200px;
-	display: flex;
-	justify-content: center;
+	border-radius: 10px;
+	padding:10px;
+	text-align: center;
 }
