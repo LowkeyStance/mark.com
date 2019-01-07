@@ -99,3 +99,6 @@ body {
 .content > * {
 	opacity: 1 !important;
 }
+a:hover{
+	transform: scale(1.5);
+}
