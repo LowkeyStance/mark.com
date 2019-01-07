@@ -100,5 +100,6 @@ body {
 	opacity: 1 !important;
 }
 a:hover{
-	transform: scale(1.5);
+	transform: scale(1.2);
+	transition-duration:.7s;
 }
